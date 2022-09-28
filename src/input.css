@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hello{
+    @apply bg-sky-500 ml-10 mr-10 pt-10 pb-10 text-white rounded-tl-xl rounded-br-xl
+}
+
+.hello_active{
+    @apply flex
+}
